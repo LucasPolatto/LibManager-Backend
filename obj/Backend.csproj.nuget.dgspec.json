@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\LibManager\\Backend\\Backend.csproj": {}
+    "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\LibManager-Backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\LibManager\\Backend\\Backend.csproj": {
+    "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\LibManager-Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\LibManager\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\LibManager-Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\LibManager\\Backend\\Backend.csproj",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\LibManager-Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\LibManager\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\LibManager-Backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

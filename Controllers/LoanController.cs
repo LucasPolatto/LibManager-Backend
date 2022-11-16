@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using Backend.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Controllers;
 

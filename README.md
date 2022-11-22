@@ -1,5 +1,3 @@
 # LibManager-Backend
 
-## Chargelog
-
-- pequenos reparos nos diretórios.
+- João, altere o endereço do banco caso for usar.

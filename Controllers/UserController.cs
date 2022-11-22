@@ -56,7 +56,6 @@ public class UserController: ControllerBase
         _user.Username = user.Username;
         _user.Email = user.Email;
         _user.Password = user.Password;
-        _user.Admin = user.Admin;
 
         db.SaveChanges();
         return Ok();

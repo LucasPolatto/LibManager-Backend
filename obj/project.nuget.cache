@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "e4vEUe6VotIdwZdSaMYc/5IvuhxRNUhGZr6Dtgr5Unxwq44+rF6X5FouIP9NKlDZpjMqxOTWjg2W9TKYH26S9Q==",
+  "dgSpecHash": "D2kOygUDDeIau4ITZjM2ElhfXzrggohWU9hz8MFyudnorHYgMrDXW3Q5iIpphLOmKue4uc5XNzCfcRg04px7jg==",
   "success": true,
   "projectFilePath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\LibManager-Backend\\Backend.csproj",
   "expectedPackageFiles": [
@@ -77,7 +77,11 @@
     "C:\\Users\\lucas\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\lucas\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+    "C:\\Users\\lucas\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512"
   ],
   "logs": []
 }

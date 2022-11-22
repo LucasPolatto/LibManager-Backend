@@ -18,12 +18,11 @@ namespace Backend.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ISBN = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Genre = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Author = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Publisher = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Session = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Loaned = table.Column<bool>(type: "bit", nullable: false)
+                    Session = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Situation = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -37,7 +36,7 @@ namespace Backend.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     BookId = table.Column<int>(type: "int", nullable: false),
-                    UserId = table.Column<int>(type: "int", nullable: false),
+                    Student = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LoanDate = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ReturnDate = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
@@ -54,8 +53,7 @@ namespace Backend.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Username = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Admin = table.Column<bool>(type: "bit", nullable: false)
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

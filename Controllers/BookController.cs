@@ -5,7 +5,7 @@ namespace Backend.Controllers;
 
 [ApiController]
 [Route("book")]
-public class BookController:ControllerBase
+public class BookController: ControllerBase
 {
     private LibDB db;
     public BookController(LibDB db)
@@ -14,7 +14,7 @@ public class BookController:ControllerBase
     }
     
     [HttpGet]
-public ActionResult Read()
+    public ActionResult Read()
     {
         return Ok(db.Books.ToList());
     }
@@ -52,12 +52,12 @@ public ActionResult Read()
 
         _book.Id = book.Id;
         _book.ISBN = book.ISBN;
-        _book.Title = book.Description;
+        _book.Title = book.Title;
         _book.Genre = book.Genre;
         _book.Author = book.Author;
         _book.Publisher = book.Publisher;
         _book.Session = book.Session;
-        _book.Loaned = book.Loaned;
+        _book.Situation = book.Situation;
 
 
 

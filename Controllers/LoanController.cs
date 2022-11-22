@@ -14,7 +14,7 @@ public class LoanController:ControllerBase
     }
     
     [HttpGet]
-public ActionResult Read()
+    public ActionResult Read()
     {
         return Ok(db.Loans.ToList());
     }
@@ -53,7 +53,7 @@ public ActionResult Read()
 
         _loan.Id = loan.Id;
         _loan.BookId = loan.BookId;
-        _loan.UserId = loan.UserId;
+        _loan.Student = loan.Student;
         _loan.LoanDate = loan.LoanDate;
         _loan.ReturnDate = loan.ReturnDate;
 

@@ -46,16 +46,13 @@ public class UserController: ControllerBase
 
     [HttpPut]
     [Route("{id}")]
-    public ActionResult Update(int id, User user)
+    public ActionResult Update(int id, string password)
     {
         User? _user = db.Users.Find(id);
         if(_user == null)
             return NotFound();
 
-        _user.Id = user.Id;
-        _user.Username = user.Username;
-        _user.Email = user.Email;
-        _user.Password = user.Password;
+        _user.Password = password;
 
         db.SaveChanges();
         return Ok();

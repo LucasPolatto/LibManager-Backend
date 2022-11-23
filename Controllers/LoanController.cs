@@ -43,22 +43,24 @@ public class LoanController:ControllerBase
         return Ok();
     }
 
-    [HttpPut]
-    [Route("{id}")]
-    public ActionResult Update(int id, Loan loan)
-    {
-        Loan? _loan = db.Loans.Find(id);
-        if(_loan == null)
-            return NotFound();
+    // NÃO ESTÁ SENDO USADO
 
-        _loan.Id = loan.Id;
-        _loan.BookId = loan.BookId;
-        _loan.Student = loan.Student;
-        _loan.LoanDate = loan.LoanDate;
-        _loan.ReturnDate = loan.ReturnDate;
+    // [HttpPut]
+    // [Route("{id}")]
+    // public ActionResult Update(int id, Loan loan)
+    // {
+    //     Loan? _loan = db.Loans.Find(id);
+    //     if(_loan == null)
+    //         return NotFound();
 
-        db.SaveChanges();
-        return Ok();
-    }
+    //     _loan.Id = loan.Id;
+    //     _loan.BookId = loan.BookId;
+    //     _loan.Student = loan.Student;
+    //     _loan.LoanDate = loan.LoanDate;
+    //     _loan.ReturnDate = loan.ReturnDate;
+
+    //     db.SaveChanges();
+    //     return Ok();
+    // }
 
 }

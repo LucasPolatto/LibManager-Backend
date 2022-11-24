@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Backend.Migrations
 {
     [DbContext(typeof(LibDB))]
-    [Migration("20221123124226_InitialCreate")]
+    [Migration("20221124173229_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -48,7 +48,7 @@ namespace Backend.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Session")
+                    b.Property<string>("Section")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Situation")

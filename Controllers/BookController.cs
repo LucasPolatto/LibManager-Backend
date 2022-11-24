@@ -44,14 +44,14 @@ public class BookController: ControllerBase
 
     [HttpPut]
     [Route("{id}")]
-    public ActionResult Update(int id, string? newSession, string newSituation)
+    public ActionResult Update(int id, Book update)
     {
         Book? _book = db.Books.Find(id);
         if(_book == null)
             return NotFound();
 
-        _book.Session = newSession;
-        _book.Situation = newSituation;
+        _book.Section = update.Section;
+        _book.Situation = update.Situation;
 
         db.SaveChanges();
         return Ok();

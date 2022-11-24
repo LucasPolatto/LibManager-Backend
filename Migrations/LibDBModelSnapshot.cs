@@ -45,7 +45,7 @@ namespace Backend.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Session")
+                    b.Property<string>("Section")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Situation")

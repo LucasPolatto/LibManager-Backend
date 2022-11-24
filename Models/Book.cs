@@ -9,6 +9,6 @@ public class Book
     public string Genre { get; set; }
     public string Author { get; set; }
     public string Publisher { get; set; }
-    public string? Session { get; set; }
+    public string? Section { get; set; }
     public string Situation { get; set; }
 }

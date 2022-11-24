@@ -21,7 +21,7 @@ namespace Backend.Migrations
                     Genre = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Author = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Publisher = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Session = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Section = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Situation = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
